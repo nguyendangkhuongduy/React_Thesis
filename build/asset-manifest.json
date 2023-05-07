@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactThesis/static/css/main.30e34298.css",
+    "main.js": "/reactThesis/static/js/main.7d40896f.js",
+    "static/js/787.1e308f7b.chunk.js": "/reactThesis/static/js/787.1e308f7b.chunk.js",
+    "index.html": "/reactThesis/index.html",
+    "main.30e34298.css.map": "/reactThesis/static/css/main.30e34298.css.map",
+    "main.7d40896f.js.map": "/reactThesis/static/js/main.7d40896f.js.map",
+    "787.1e308f7b.chunk.js.map": "/reactThesis/static/js/787.1e308f7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e34298.css",
+    "static/js/main.7d40896f.js"
+  ]
+}

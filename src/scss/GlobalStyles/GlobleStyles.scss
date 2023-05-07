@@ -1,0 +1,71 @@
+@import "./variable";
+@import "./mixin";
+html {
+    font-size: 62.5%;
+    background-color: #001023;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    width: 100vw;
+    overflow-x: hidden !important;
+    z-index: 0;
+    overflow: hidden;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: unset;
+    border: none;
+    outline: none;
+    background-color: unset;
+    -webkit-tap-highlight-color: transparent;
+    &:hover {
+    }
+}
+button {
+    cursor: pointer;
+}
+i > svg {
+    pointer-events: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #888;
+    opacity: 0.5;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $hoverTextClr;
+    border-radius: 10px;
+
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  ol {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  a {
+    color:  $mainClr ;
+    text-decoration: none;
+  }

@@ -1,0 +1,55 @@
+@import "../GlobalStyles/GlobleStyles.scss";
+.nav-menu {
+    position: fixed;
+    height: 100vh;
+    background-color: $mainClr;
+    top: 50px;
+    width: 250px;
+    z-index: 99;
+    padding-top: 15px;
+    &-items {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+        & > li {
+            width: 100%;
+            font-size: 1.5rem;
+            padding: 5px 20px;
+            padding-left: 30px;
+            cursor: pointer;
+
+            &:hover {
+                a {
+                    color: $hoverTextClr;
+                }
+                i > svg {
+                    fill: $hoverTextClr;
+                }
+            }
+            & i {
+                font-size: 2rem;
+                margin-right: 8px;
+                padding-bottom: 50px;
+                & svg {
+                    transition: 0.35s ease;
+                    padding-bottom: 2px;
+                }
+            }
+            & a {
+                color: #fff;
+                transition: 0.35s ease;
+                text-decoration: none !important;
+                display: block;
+                padding: 5px 0;
+            }
+        }
+    }
+    .active {
+        color: $hoverTextClr;
+        & svg {
+            fill: $hoverTextClr;
+        }
+    }
+}
